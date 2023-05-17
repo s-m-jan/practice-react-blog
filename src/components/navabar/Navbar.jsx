@@ -3,7 +3,11 @@ import styled from "./navbar.module.css";
 function Navbar() {
   return (
     <div className={styled.header}>
-      <h1>hello</h1>
+      <ul>
+        <li>لیست مقالات</li>
+        <li>ساخت مقاله</li>
+        <li>درباره</li>
+      </ul>
     </div>
   );
 }
