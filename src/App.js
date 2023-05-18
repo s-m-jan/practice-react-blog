@@ -3,7 +3,7 @@ import Navbar from "./components/navabar/Navbar";
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar title="سالار بلاگ"/>
       {/* <Footer />  */}
     </div>
   );
