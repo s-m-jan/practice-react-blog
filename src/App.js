@@ -1,16 +1,10 @@
-import Footer from "./components/footer/Footer";
-import Navbar from "./components/navabar/Navbar";
+import Home from "./pages/home/home";
 function App() {
   return (
     <div className="App">
-      <Navbar title="سالار بلاگ"/>
-      {/* <Footer />  */}
+     <Home/>
     </div>
   );
 }
-
-
-
-
 
 export default App;
