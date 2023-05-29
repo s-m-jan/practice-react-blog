@@ -1,5 +1,11 @@
 .myfooter{
-    background-color: greenyellow;
+    background-color: #333;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 50px;
 }
 
 
