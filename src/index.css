@@ -24,3 +24,8 @@ ul{
 .container{
   padding: 0 160px;
 }
+
+a{
+  text-decoration: none;
+  color: #333;
+}

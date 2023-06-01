@@ -1,0 +1,29 @@
+.aboutUs{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.aboutUs h1, .aboutUs p{
+    align-self:self-start;
+}
+
+.aboutUs h3, .aboutUs img{
+    align-self: center;
+}
+
+
+.aboutUs *{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutUs h3{
+    color: blue;
+}
+
+.aboutUs img{
+    border: 1px solid lightblue;
+    margin-top: 0px;
+}
