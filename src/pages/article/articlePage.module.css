@@ -1,0 +1,24 @@
+.articleDefiner{
+    display: flex;
+    justify-content: end;
+}
+
+.articleDefiner span{
+    margin: 10px 10px;
+}
+
+.title{
+    text-align: right;
+    margin: 10px 0px;
+}
+
+.text{
+    direction: rtl;
+    text-align: right;
+}
+
+.img img{
+    width: 1000px;
+    margin: 30px auto;
+    
+}

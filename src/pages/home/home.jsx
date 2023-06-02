@@ -37,8 +37,8 @@ function Home(){
                 <div className={styled.articles}>
                    {
                     articles.map(article=>(
-                      <Link to="/article">
-                      <Article key={article.Id} article={article} />
+                      <Link to={`/article/${article.id}`}>
+                      <Article key={article.id} article={article} />
                       </Link>
                         
                     ))
